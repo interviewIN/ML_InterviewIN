@@ -1,0 +1,8 @@
+runtime: python39
+
+instance_class: B4
+service: default
+entrypoint: gcloud init && gcloud components update && gcloud components install beta && pip install -r requirements.txt && gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app
+basic_scaling:
+  max_instances: 1
+  idle_timeout: 10m

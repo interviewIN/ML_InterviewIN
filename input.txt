@@ -1,0 +1,24 @@
+1. Question: Can you explain the difference between procedural programming and object-oriented programming (OOP)?
+
+Answer:
+Procedural programming is a programming paradigm that focuses on procedures or routines, where the program is structured in a linear manner. It uses functions to perform tasks and often relies on global variables. On the other hand, Object-Oriented Programming (OOP) is a paradigm that uses objects, which encapsulate data and behavior. It promotes concepts like encapsulation, inheritance, and polymorphism for more modular and reusable code.
+
+2. Question: What is the significance of version control, and how do you use it in your development workflow?
+
+Answer:
+Version control is crucial for tracking changes in software development, enabling collaboration, and reverting to previous states if needed. I commonly use Git for version control. I create branches for new features or bug fixes, regularly commit changes with descriptive messages, and merge branches back into the main branch when features are complete and tested.
+
+3. Question: How do you ensure the security of a web application you're developing?
+
+Answer:
+Security is paramount in web development. I follow best practices such as input validation, parameterized queries to prevent SQL injection, and use of secure communication protocols like HTTPS. I implement proper authentication and authorization mechanisms, regularly update dependencies, and conduct security audits. Additionally, I stay informed about the latest security threats and incorporate security measures accordingly.
+
+4. Question: Describe the process of optimizing code for performance.
+
+Answer:
+Code optimization is essential for improving performance. I start by profiling the code to identify bottlenecks. Once identified, I focus on algorithmic improvements, use of efficient data structures, and minimizing I/O operations. I also pay attention to memory usage and cache efficiency. Regular testing and benchmarking help ensure that optimizations don't compromise code readability or introduce new bugs.
+
+5. Question: How do you stay updated with the latest developments and trends in the software engineering industry?
+
+Answer:
+Staying current is crucial in this rapidly evolving field. I regularly read tech blogs, follow reputable industry websites, and participate in online communities like GitHub and Stack Overflow. Attending conferences, webinars, and meetups provides opportunities to learn from experts and engage with the broader software engineering community. I also experiment with new technologies through personal projects to gain hands-on experience.
